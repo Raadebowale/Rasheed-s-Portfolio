@@ -1,213 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rasheed Adebowale Portfolio</title>
 
     <!-- CSS STYLESHEET -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- ICONSCOUT CDN -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
 
     <!-- GOOGLE FONTS (POPPINS) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--==================== NAVBAR ====================-->
     <nav>
-        <div class="container nav__container">
-            <a href="index.html" class="nav__logo">
-                <h3>RA</h3>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">
+          <h3>RA</h3>
+        </a>
+
+        <ul class="nav__menu">
+          <li class="list active">
+            <a href="index.html">
+              <span class="text">HOME</span>
+              <span class="icon"><i class="uil uil-home"></i></span>
             </a>
+          </li>
 
-            <ul class="nav__menu">
-                <li class="list active">
-                    <a href="index.html">
-                        <span class="text">HOME</span>
-                        <span class="icon"><i class="uil uil-home"></i></span>
-                    </a>
-                </li>
+          <li class="list">
+            <a href="#services">
+              <span class="text">SERVICES</span>
+              <span class="icon"><i class="uil uil-briefcase"></i></span>
+            </a>
+          </li>
 
-                <li class="list">
-                    <a href="#services">
-                        <span class="text">SERVICES</span>
-                        <span class="icon"><i class="uil uil-briefcase"></i></span>
-                    </a>
-                </li>
+          <li class="list">
+            <a href="#portfolio">
+              <span class="text">PROJECTS</span>
+              <span class="icon"><i class="uil uil-user"></i></span>
+            </a>
+          </li>
 
-                <li class="list">
-                    <a href="#portfolio">
-                        <span class="text">PROJECTS</span>
-                        <span class="icon"><i class="uil uil-user"></i></span>
-                    </a>
-                </li>
+          <li class="list">
+            <a href="#contact">
+              <span class="text">CONTACT</span>
+              <span class="icon"><i class="uil uil-book"></i></span>
+            </a>
+          </li>
 
-                <li class="list">
-                    <a href="#contact">
-                        <span class="text">CONTACT</span>
-                        <span class="icon"><i class="uil uil-book"></i></span>
-                    </a>
-                </li>
+          <li class="nav__btn">
+            <a href="Rasheed_Adebowale_CV.pdf" class="btn btn-primary" download>
+              <i class="uil uil-download-alt"></i>DOWNLOAD CV</a
+            >
+          </li>
 
-                <li class="nav__btn">
-                    <a href="Adebowale_Rasheed.pdf" class="btn btn-primary" download>
-                        <i class="uil uil-download-alt"></i>DOWNLOAD CV</a>
-                </li>
+          <div class="indicator"></div>
+        </ul>
 
-                <div class="indicator"></div>
-            </ul>
-
-            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
-            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
-        </div>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
     </nav>
     <!--========================= END OF NAVBAR =========================-->
 
     <!--==================== HEADER ====================-->
     <header>
-        <div class="container header__container">
-            <div class="header__left">
-                <div>
-                    <h3>Hello There! I'm</h3>
-                    <h1>Rasheed<br/>Adebowale</h1>
-                    <p>
-                        A Front-End Web Developer and WordPress Developer. I develop fully responsive websites using 
-                        HTML5, CSS3, Javascript, React JS & Elementor. Let's collaborate today!
-                    </p>
-                    <a href="#contact" class="btn btn-primary btn-lg">Get in touch</a>
-                </div>
-            </div>
-            <div class="header__right">
-                <div class="header__image">
-                    <img src="images/rasheedimg.png" alt="">
-                </div>
-                <div class="header__right-bg"></div>
-                <ul class="header__socials">
-                    <li><a href="https://www.instagram.com/aderd_/" target="_blank"><i class="uil uil-instagram"></i></a></li>
-                    <li><a href="https://twitter.com/_Aderd/" target="_blank"><i class="uil uil-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/raadebowale/" target="_blank"><i class="uil uil-linkedin"></i></a></li>
-                </ul>
-            </div>
+      <div class="container header__container">
+        <div class="header__left">
+          <div>
+            <h3>Hello There! I'm</h3>
+            <h1>Rasheed<br />Adebowale</h1>
+            <p>
+              A Front-End Web Developer and WordPress Developer. I develop fully
+              responsive websites using HTML5, CSS3, Javascript, React JS &
+              Elementor. Let's collaborate today!
+            </p>
+            <a href="#contact" class="btn btn-primary btn-lg">Get in touch</a>
+          </div>
         </div>
+        <div class="header__right">
+          <div class="header__image">
+            <img src="images/rasheedimg.png" alt="" />
+          </div>
+          <div class="header__right-bg"></div>
+          <ul class="header__socials">
+            <li>
+              <a href="https://www.instagram.com/aderd_/" target="_blank"
+                ><i class="uil uil-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/_Aderd/" target="_blank"
+                ><i class="uil uil-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/raadebowale/" target="_blank"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <!--========================= END OF HEADER =========================-->
 
-
     <!--==================== COMPANIES ====================-->
     <section id="companies">
-        <div class="container companies__container">
-            <span><img src="" alt=""></span>
-            <span><img src="" alt=""></span>
-            <span><img src="" alt=""></span>
-            <span><img src="" alt=""></span>
-            <span><img src="" alt=""></span>
-            <span><img src="" alt=""></span>
-        </div>
+      <div class="container companies__container">
+        <span><img src="" alt="" /></span>
+        <span><img src="" alt="" /></span>
+        <span><img src="" alt="" /></span>
+        <span><img src="" alt="" /></span>
+        <span><img src="" alt="" /></span>
+        <span><img src="" alt="" /></span>
+      </div>
     </section>
     <!--========================= END OF COMPANIES =========================-->
 
-
     <!--==================== SERVICES ====================-->
     <section id="services">
-        <div class="container services__container">
-            <div class="services__left">
-                <h1>6+</h1>
-                <h4>Months Working Experience</h4>
-                <small>
-                    Worked mainly as a freelancer developing multiple projects for different individuals
-                </small>
+      <div class="container services__container">
+        <div class="services__left">
+          <h1>6+</h1>
+          <h4>Months Working Experience</h4>
+          <small>
+            Worked mainly as a freelancer developing multiple projects for
+            different individuals
+          </small>
+        </div>
+
+        <div class="services__right">
+          <h2>
+            WordPress and Front-End Web Developer, Specialized in Elementor,
+            HTML5, CSS3, Javascript and React JS.
+          </h2>
+          <div class="services__cards">
+            <div class="services__card">
+              <span class="services__card-icon"
+                ><i class="uil uil-browser"></i
+              ></span>
+              <h5>Website Development</h5>
+              <a href="#contact"
+                >Contact For More <i class="uil uil-arrow-right"></i
+              ></a>
             </div>
 
-            <div class="services__right">
-                <h2>
-                    WordPress and Front-End Web Developer, Specialized in Elementor, HTML5, CSS3, Javascript and React JS.
-                </h2>
-                <div class="services__cards">
-    
-                    <div class="services__card">
-                        <span class="services__card-icon"><i class="uil uil-browser"></i></span>
-                        <h5>Website Development</h5>
-                        <a href="#contact">Contact For More <i class="uil uil-arrow-right"></i></a>
-                    </div>
-                    
-                    <div class="services__card">
-                        <span class="services__card-icon"><i class="uil uil-layers-alt"></i></span>
-                        <h5>Mobile App</h5>
-                        <a href="#contact">Contact For More <i class="uil uil-arrow-right"></i></a>
-                    </div>
-    
-                    <div class="services__card">
-                        <span class="services__card-icon"><i class="uil uil-lightbulb"></i></span>
-                        <h5>WordPress Development</h5>
-                        <a href="#contact">Contact For More <i class="uil uil-arrow-right"></i></a>
-                    </div>
-                </div>
+            <div class="services__card">
+              <span class="services__card-icon"
+                ><i class="uil uil-layers-alt"></i
+              ></span>
+              <h5>Mobile App</h5>
+              <a href="#contact"
+                >Contact For More <i class="uil uil-arrow-right"></i
+              ></a>
             </div>
+
+            <div class="services__card">
+              <span class="services__card-icon"
+                ><i class="uil uil-lightbulb"></i
+              ></span>
+              <h5>WordPress Development</h5>
+              <a href="#contact"
+                >Contact For More <i class="uil uil-arrow-right"></i
+              ></a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!--========================= END OF SERVICES =========================-->
 
-
     <!--==================== PORTFOLIO ====================-->
     <section id="portfolio">
-        <div class="container portfolio__container">
-            <div class="portfolio__head">
-                <h3>Check out some of my projects below </h3>
-                <div class="portfolio-_head-right">
-                    <p>
-                        Here are a few projects I have worked on.
-                    </p>
-                    <a href="#portfolio">Explore More <i class="uil uil-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio__projects">
-                <article class="portfolio__project">
-                    <span class="portfolio__project-image"><img src="images/ActideaSoicalImg.png" alt=""></span>
-                    <div class="portfolio__cta">
-                        <a href="https://github.com/Raadebowale/AppSocial" class="btn" target="_blank">GitHub</a>
-                    </div>
-                </article>
-
-                <article class="portfolio__project">
-                    <span class="portfolio__project-image"><img src="images/EducationSite.png" alt=""></span>
-                    <div class="portfolio__cta">
-                        <a href="https://github.com/Raadebowale/EducationWebsite" class="btn" target="_blank">GitHub</a>
-                    </div>
-                </article>
-
-                <article class="portfolio__project">
-                    <span class="portfolio__project-image"><img src="images/Cloth-ECommerce.png" alt=""></span>
-                    <div class="portfolio__cta">
-                        <a href="https://github.com/Raadebowale/Cloth-ECommerce" class="btn" target="_blank">GitHub</a>
-                    </div>
-                </article>
-
-                <article class="portfolio__project">
-                    <span class="portfolio__project-image"><img src="images/pridexstores.png" alt=""></span>
-                    <div class="portfolio__cta">
-                        <a href="https://www.pridexstores.com/" class="btn btn-primary" target="_blank">Live Demo</a>
-                    </div>
-                </article>
-            </div>
+      <div class="container portfolio__container">
+        <div class="portfolio__head">
+          <h3>Check out some of my projects below</h3>
+          <div class="portfolio-_head-right">
+            <p>Here are a few projects I have worked on.</p>
+            <a href="#portfolio"
+              >Explore More <i class="uil uil-arrow-right"></i
+            ></a>
+          </div>
         </div>
+
+        <div class="portfolio__projects">
+          <article class="portfolio__project">
+            <span class="portfolio__project-image"
+              ><img
+                src="images/Simulator Screenshot - IPhone 8 Plus - 2024-02-02 at 11.17.28.png"
+                alt=""
+            /></span>
+            <div class="portfolio__cta">
+              <a
+                href="https://github.com/Raadebowale/AppSocial"
+                class="btn"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </article>
+
+          <article class="portfolio__project">
+            <span class="portfolio__project-image"
+              ><img src="images/ActideaSoicalImg.png" alt=""
+            /></span>
+            <div class="portfolio__cta">
+              <a
+                href="https://github.com/Raadebowale/AppSocial"
+                class="btn"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </article>
+
+          <article class="portfolio__project">
+            <span class="portfolio__project-image"
+              ><img src="images/EducationSite.png" alt=""
+            /></span>
+            <div class="portfolio__cta">
+              <a
+                href="https://github.com/Raadebowale/EducationWebsite"
+                class="btn"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </article>
+
+          <article class="portfolio__project">
+            <span class="portfolio__project-image"
+              ><img src="images/Cloth-ECommerce.png" alt=""
+            /></span>
+            <div class="portfolio__cta">
+              <a
+                href="https://github.com/Raadebowale/Cloth-ECommerce"
+                class="btn"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </article>
+
+          <article class="portfolio__project">
+            <span class="portfolio__project-image"
+              ><img src="images/pridexstores.png" alt=""
+            /></span>
+            <div class="portfolio__cta">
+              <a
+                href="https://www.pridexstores.com/"
+                class="btn btn-primary"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
     <!--========================= END OF PORTFOLIO =========================-->
 
-
     <!--==================== TESTIMONIALS ====================-->
     <section id="testimonials">
-        <h2>What client's Say</h2>
-        <p class="lead">
-            Here are a few feedbacks from my clients
-        </p>
-        <div class="container testimonials__container">
-            <!-- <article class="testimonial">
+      <h2>What client's Say</h2>
+      <p class="lead">Here are a few feedbacks from my clients</p>
+      <div class="container testimonials__container">
+        <!-- <article class="testimonial">
                 <p>
                     "He finished my project on time and it was to my satisfaction"
                 </p>
@@ -221,46 +292,60 @@
                     </div>
                 </div>
             </article> -->
-
-            
-        </div>
+      </div>
     </section>
     <!--========================= END OF TESTIMONIALS =========================-->
 
-
     <!--==================== CONTACT ====================-->
     <section id="contact">
-        <div class="container contact__container">
-            <div class="contact__left">
-                <h2>Let's Talk</h2>
-                <p>
-                    I'm open to learning new things and working on any type of project. Feel free to contact me on any of the platforms below.
-                </p>
-                <ul class="contact__socials">
-                    <li><a href="https://www.instagram.com/aderd_/" target="_blank"><i class="uil uil-instagram"></i></a></li>
-                    <li><a href="https://twitter.com/_Aderd/" target="_blank"><i class="uil uil-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/raadebowale/" target="_blank"><i class="uil uil-linkedin"></i></a></li>
-                </ul>
-            </div>
-
-            <form action="https://formspree.io/f/xyyvlkag" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="6" placeholder="Message" required></textarea>
-                <button type="submit" class="btn">Send <i class="uil uil-arrow-right"></i></button>
-            </form>
+      <div class="container contact__container">
+        <div class="contact__left">
+          <h2>Let's Talk</h2>
+          <p>
+            I'm open to learning new things and working on any type of project.
+            Feel free to contact me on any of the platforms below.
+          </p>
+          <ul class="contact__socials">
+            <li>
+              <a href="https://www.instagram.com/aderd_/" target="_blank"
+                ><i class="uil uil-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/_Aderd/" target="_blank"
+                ><i class="uil uil-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/raadebowale/" target="_blank"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+            </li>
+          </ul>
         </div>
+
+        <form action="https://formspree.io/f/xyyvlkag" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">
+            Send <i class="uil uil-arrow-right"></i>
+          </button>
+        </form>
+      </div>
     </section>
     <!--========================= END OF CONTACT =========================-->
 
-
     <footer>
-        <small>
-            Copyright &copy; ChalkDev – All rights reserved.
-        </small>
+      <small> Copyright &copy; ChalkDev – All rights reserved. </small>
     </footer>
 
     <script src="testimonials.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
