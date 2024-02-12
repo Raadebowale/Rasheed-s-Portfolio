@@ -780,7 +780,7 @@ footer {
   }
 
   .header__image {
-    bottom: -10rem;
+    bottom: -5rem;
     right: 5%;
     width: 100%;
   }
@@ -904,18 +904,18 @@ footer {
 
   .header__image {
     position: relative;
-    top: -10rem;
+    top: -2rem;
   }
 
   .header__right-bg {
-    bottom: 32%;
-    right: -20%;
+    bottom: 15%;
+    right: -40%;
   }
 
   .header__socials {
     position: absolute;
     z-index: 1;
-    bottom: 30rem;
+    bottom: 25rem;
   }
 
   .header__socials a {
